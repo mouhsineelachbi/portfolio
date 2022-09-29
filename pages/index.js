@@ -14,7 +14,7 @@ export default function Home() {
       <main className="px-10">
         <section className="h-screen">
           <nav className="flex justify-between py-10 mb-12">
-            <h1 className="text-xl">mythosedevelop</h1>
+            <h1 className="text-xl font-burtons">mythosedevelop</h1>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill className="cursor-pointer text-2xl" />
