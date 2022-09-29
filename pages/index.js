@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Mouhsine Portfolio</title>
+        <title>Mouhsine ELACHBI Portfolio</title>
         <meta name="description" content="Created by Mouhsine ELACHBI" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
