@@ -20,22 +20,27 @@ import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
 
 export default function Home() {
-  const [dark, setDark] = useState(false)
+  const [darkMode, setDarkMode] = useState(false);
   return (
-    <div>
+    <div className={darkMode ? "dark" : ""}>
       <Head>
         <title>Mouhsine ELACHBI Portfolio</title>
         <meta name="description" content="Created by Mouhsine ELACHBI" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="bg-white px-10 md:px-20 lg:px-40">
+      <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900">
         <section className="min-h-screen">
           <nav className="flex justify-between py-10 mb-12">
             <h1 className="text-xl font-burtons">mythosedevelop</h1>
             <ul className="flex items-center">
               <li>
-                <BsFillMoonStarsFill className="cursor-pointer text-2xl" />
+                <BsFillMoonStarsFill
+                  className="cursor-pointer text-2xl"
+                  onClick={() => {
+                    setDarkMode(!darkMode);
+                  }}
+                />
               </li>
               <li>
                 <a
@@ -160,22 +165,64 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1">
-              <Image src={web1} width={"100%"} height={"100%"} alt="" layout="responsive" className="rounded-xl object-cover" />
+              <Image
+                src={web1}
+                width={"100%"}
+                height={"100%"}
+                alt=""
+                layout="responsive"
+                className="rounded-xl object-cover"
+              />
             </div>
             <div className="basis-1/3 flex-1">
-              <Image src={web2} width={"100%"} height={"100%"} alt="" layout="responsive" className="rounded-xl object-cover" />
+              <Image
+                src={web2}
+                width={"100%"}
+                height={"100%"}
+                alt=""
+                layout="responsive"
+                className="rounded-xl object-cover"
+              />
             </div>
             <div className="basis-1/3 flex-1">
-              <Image src={web3} width={"100%"} height={"100%"} alt="" layout="responsive" className="rounded-xl object-cover" />
+              <Image
+                src={web3}
+                width={"100%"}
+                height={"100%"}
+                alt=""
+                layout="responsive"
+                className="rounded-xl object-cover"
+              />
             </div>
             <div className="basis-1/3 flex-1">
-              <Image src={web4} width={"100%"} height={"100%"} alt="" layout="responsive" className="rounded-xl object-cover" />
+              <Image
+                src={web4}
+                width={"100%"}
+                height={"100%"}
+                alt=""
+                layout="responsive"
+                className="rounded-xl object-cover"
+              />
             </div>
             <div className="basis-1/3 flex-1">
-              <Image src={web5} width={"100%"} height={"100%"} alt="" layout="responsive" className="rounded-xl object-cover" />
+              <Image
+                src={web5}
+                width={"100%"}
+                height={"100%"}
+                alt=""
+                layout="responsive"
+                className="rounded-xl object-cover"
+              />
             </div>
             <div className="basis-1/3 flex-1">
-              <Image src={web6} width={"100%"} height={"100%"} alt="" layout="responsive" className="rounded-xl object-cover" />
+              <Image
+                src={web6}
+                width={"100%"}
+                height={"100%"}
+                alt=""
+                layout="responsive"
+                className="rounded-xl object-cover"
+              />
             </div>
           </div>
         </section>
