@@ -6,7 +6,7 @@ import {
 
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import Head from "next/head";
-import Image from "next/image";
+import Image from './image';
 import code from "../public/code.png";
 import consulting from "../public/consulting.png";
 import design from "../public/design.png";
