@@ -9,7 +9,7 @@ const nextConfig = withPlugins([{
   images: {
     loader: 'custom'
   },
-  basePath: '/out'
+  basePath: './'
     
 }])
 
