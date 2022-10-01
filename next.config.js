@@ -9,7 +9,7 @@ const nextConfig = withPlugins([{
   images: {
     loader: 'custom'
   },
-  basePath: 'https://mouhsineelachbi.github.io/portofolio/',
+  basePath: '/portofolio/',
   eslint: {
     ignoreDuringBuilds: true,
   },
