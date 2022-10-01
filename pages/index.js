@@ -7,17 +7,17 @@ import {
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import Head from "next/head";
 import Image from './image';
-import code from "../public/code.png";
-import consulting from "../public/consulting.png";
-import design from "../public/design.png";
-import mouhsine from "../public/mouhsine_wave.png";
+import code from "../public/assets/images/code.png";
+import consulting from "../public/assets/images/consulting.png";
+import design from "../public/assets/images/design.png";
+import mouhsine from "../public/assets/images/mouhsine_wave.png";
 import { useState } from "react";
-import web1 from "../public/web1.png";
-import web2 from "../public/web2.png";
-import web3 from "../public/web3.png";
-import web4 from "../public/web4.png";
-import web5 from "../public/web5.png";
-import web6 from "../public/web6.png";
+import web1 from "../public/assets/images/web1.png";
+import web2 from "../public/assets/images/web2.png";
+import web3 from "../public/assets/images/web3.png";
+import web4 from "../public/assets/images/web4.png";
+import web5 from "../public/assets/images/web5.png";
+import web6 from "../public/assets/images/web6.png";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -26,7 +26,7 @@ export default function Home() {
       <Head>
         <title>Mouhsine ELACHBI Portfolio</title>
         <meta name="description" content="Created by Mouhsine ELACHBI" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="./assets/images/favicon.ico" />
       </Head>
 
       <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900">
