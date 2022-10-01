@@ -20,7 +20,7 @@ import web5 from "../public/assets/images/web5.png";
 import web6 from "../public/assets/images/web6.png";
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
