@@ -1,8 +1,5 @@
-const withPlugins = require('next-compose-plugins');
-const optimizedImages = require('next-optimized-images');
-
 /** @type {import('next').NextConfig} */
-const nextConfig = withPlugins([{
+const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   distDir: "build",
@@ -14,6 +11,6 @@ const nextConfig = withPlugins([{
     ignoreDuringBuilds: true,
   },
     
-}])
+}
 
 module.exports = nextConfig
