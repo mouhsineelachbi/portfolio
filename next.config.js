@@ -6,7 +6,7 @@ const nextConfig = {
   images: {
     loader: 'custom'
   },
-  
+  basePath: '/portfolio',
   eslint: {
     ignoreDuringBuilds: true,
   },
